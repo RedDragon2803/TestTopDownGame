@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Enemies",
+    "\\Events",
+    "\\Player",
+    "\\SaveSystem",
+    "\\SaveSystem\\Data",
+    "\\SaveSystem\\Serializable Types",
+    "\\UI",
+    "\\Variables",
+    "\\Weapon"
+  ],
+  "SelectedNode": "\\SaveSystem\\Data\\GameData.cs",
+  "PreviewInSolutionExplorer": false
+}

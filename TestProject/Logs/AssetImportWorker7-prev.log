@@ -1,0 +1,1183 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'ru' Physical Memory: 16300 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/admin/TestProject
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+55979
+Successfully changed project path to: C:/Users/admin/TestProject
+C:/Users/admin/TestProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [36020] Host "[IP] 192.168.73.110 [Port] 0 [Flags] 2 [Guid] 2480890531 [EditorId] 2480890531 [Version] 1048832 [Id] WindowsEditor(7,DragonPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [36020] Host "[IP] 192.168.73.110 [Port] 0 [Flags] 2 [Guid] 2480890531 [EditorId] 2480890531 [Version] 1048832 [Id] WindowsEditor(7,DragonPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 247.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/admin/TestProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX Vega (ID=0x687f)
+    Vendor:   ATI
+    VRAM:     8119 MB
+    Driver:   31.0.21902.5
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.037634 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 612 ms
+Refreshing native plugins compatible for Editor in 212.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.263 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2264ms)
+		BeginReloadAssembly (226ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1774ms)
+			LoadAssemblies (218ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (1321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (814ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (213ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.027308 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\admin\TestProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\admin\TestProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 189.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Users\admin\TestProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\admin\TestProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\admin\TestProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\admin\TestProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Users\admin\TestProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Users\admin\TestProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Users\admin\TestProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Users\admin\TestProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in C:\Users\admin\TestProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Users\admin\TestProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+- Completed reload, in  4.131 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4133ms)
+		BeginReloadAssembly (314ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (3538ms)
+			LoadAssemblies (291ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (525ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (135ms)
+			SetupLoadedEditorAssemblies (2515ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (190ms)
+				BeforeProcessingInitializeOnLoad (279ms)
+				ProcessInitializeOnLoadAttributes (1856ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (284.7 KB). Loaded Objects now: 4562.
+Memory consumption went from 160.4 MB to 160.1 MB.
+Total: 23.614000 ms (FindLiveObjects: 0.622700 ms CreateObjectMapping: 0.318500 ms MarkObjects: 22.499900 ms  DeleteObjects: 0.170900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 752124.172291 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_311.asset
+  artifactKey: Guid(fa10d7959de519a469ffe7b0f5ec69b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_311.asset using Guid(fa10d7959de519a469ffe7b0f5ec69b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e72e9bdcad9d8362b9f772505a6400aa') in 0.260249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_409.asset
+  artifactKey: Guid(d5a309af55b05ed45883d2735042ffb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_409.asset using Guid(d5a309af55b05ed45883d2735042ffb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06f7df929ba5e506659f939318643204') in 0.045907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_349.asset
+  artifactKey: Guid(8b13be155c3a0194e873aa1c89977607) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_349.asset using Guid(8b13be155c3a0194e873aa1c89977607) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b2de3ad9f3d01284cb4f598717c77de') in 0.040007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_391.asset
+  artifactKey: Guid(bc66f51a61a15b544af3d1738cea2e45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_391.asset using Guid(bc66f51a61a15b544af3d1738cea2e45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cd36032aac176e9ceee09140424c534') in 0.040738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_348.asset
+  artifactKey: Guid(8e99f6b9003d0cc48b95c6202bc5baba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_348.asset using Guid(8e99f6b9003d0cc48b95c6202bc5baba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dfcdb175547192dcfea3e8a396fa9932') in 0.039900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_322.asset
+  artifactKey: Guid(3756f6b8b15ac454c8570ad6eed51888) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_322.asset using Guid(3756f6b8b15ac454c8570ad6eed51888) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a6a0354800862482610c55fc52d2a6b') in 0.048457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_393.asset
+  artifactKey: Guid(b666622b116edc94b9fe6d0cb501e7b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_393.asset using Guid(b666622b116edc94b9fe6d0cb501e7b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e33e40591e92c28fa4a5bd97fad14015') in 0.047183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_373.asset
+  artifactKey: Guid(76699440a81f2a84bb03f3996d4c0cb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_373.asset using Guid(76699440a81f2a84bb03f3996d4c0cb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf6a0ea8f5d8bb9f553005d663704ae3') in 0.038957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_382.asset
+  artifactKey: Guid(989fbefdb76b83e45907c6627ab9db55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_382.asset using Guid(989fbefdb76b83e45907c6627ab9db55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b09e7d062d70cd349d5806696d368acf') in 0.046041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_355.asset
+  artifactKey: Guid(63e716398f7502848bede7f250b4f732) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_355.asset using Guid(63e716398f7502848bede7f250b4f732) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4e951af5abb6da9e88e62455e5db3b6') in 0.040004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_35.asset
+  artifactKey: Guid(6cf2e18820ce4cd4888db77d4f23c98c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_35.asset using Guid(6cf2e18820ce4cd4888db77d4f23c98c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9eb7f15a217addd5eb1a0a7d65549c65') in 0.033993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_331.asset
+  artifactKey: Guid(3b62cf92a573ae0428e8a733a7ed9b7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_331.asset using Guid(3b62cf92a573ae0428e8a733a7ed9b7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ba9a1f9b3b1aa6fbe26b5f14129d2ef') in 0.037616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_399.asset
+  artifactKey: Guid(aaa128a55badc0249944f7b46f785e4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_399.asset using Guid(aaa128a55badc0249944f7b46f785e4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd720b37ee2f760d8461ec8e1bbd489f7') in 0.043145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_388.asset
+  artifactKey: Guid(e9675133233921449924518871c9605e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_388.asset using Guid(e9675133233921449924518871c9605e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b61d2a154861c21d258d51ecccaa3468') in 0.041710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_380.asset
+  artifactKey: Guid(bb47186c49fcd9c43bd8804e4a3e3d79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_380.asset using Guid(bb47186c49fcd9c43bd8804e4a3e3d79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd67ae90acd7782de6d9a66968bb92e5') in 0.043597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_398.asset
+  artifactKey: Guid(3592938394aa95741aeb01df355205cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_398.asset using Guid(3592938394aa95741aeb01df355205cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e652e79f276160d60b9b703905aa5593') in 0.035635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_141.asset
+  artifactKey: Guid(436b959ed10c7aa4da7e57fb7a4b87c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_141.asset using Guid(436b959ed10c7aa4da7e57fb7a4b87c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '917e7ff49d51f3f3065b6eb5a95b9b4d') in 0.042626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+  artifactKey: Guid(15b01b4fe07c634488c937ab96d84308) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db using Guid(15b01b4fe07c634488c937ab96d84308) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd47256630695b385f3a7092864f8c58b') in 0.033175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_195.asset
+  artifactKey: Guid(d93eaee4fbcddfe41ab44cfc1251911f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_195.asset using Guid(d93eaee4fbcddfe41ab44cfc1251911f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4faab13d952ba5b6e2d7782d985230f') in 0.090855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png
+  artifactKey: Guid(2a1f3cba20f3e11498474a705db12fde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png using Guid(2a1f3cba20f3e11498474a705db12fde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb5030799d44a7d6f17f9f7d8e585d03') in 0.155384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.342110 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_412.asset
+  artifactKey: Guid(298a3297abc7ed0468ab445240250f02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_412.asset using Guid(298a3297abc7ed0468ab445240250f02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10afcbe6bce2bab48a661f3cab25c7e0') in 0.044388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_431.asset
+  artifactKey: Guid(9ceba8d5163dd2f46802c49c860ef733) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_431.asset using Guid(9ceba8d5163dd2f46802c49c860ef733) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05f5d9970f02fb82f88e0be97ce29eda') in 0.046108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_496.asset
+  artifactKey: Guid(bbe9515dfe9702249b02b1de77798565) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_496.asset using Guid(bbe9515dfe9702249b02b1de77798565) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a60b11b9fa7ec8572c59f502de3e8cd') in 0.036608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_492.asset
+  artifactKey: Guid(f682d6c10c6ea4d40be655692818b7a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_492.asset using Guid(f682d6c10c6ea4d40be655692818b7a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c541e568f172e6cf67ca464f8c13aea1') in 0.041168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_470.asset
+  artifactKey: Guid(8ecd3020fbea28f49a773b4fc873a979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_470.asset using Guid(8ecd3020fbea28f49a773b4fc873a979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45d1866ec62e49fe2cddc7bfa44cedcd') in 0.045292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_443.asset
+  artifactKey: Guid(1385cc9b44a34744dac52ce0256c9fb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_443.asset using Guid(1385cc9b44a34744dac52ce0256c9fb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f254830f04fe7711d7be10dcaae80d24') in 0.045585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_475.asset
+  artifactKey: Guid(33be46441ed5da74f9cc1e00657083d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_475.asset using Guid(33be46441ed5da74f9cc1e00657083d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2de1cc856ee55b75de74dc904cb34ab4') in 0.042316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_48.asset
+  artifactKey: Guid(5fcfaeb854c7465448d85c518bfabe51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_48.asset using Guid(5fcfaeb854c7465448d85c518bfabe51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b58c0e63f91dc104903228e516c26757') in 0.044035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_490.asset
+  artifactKey: Guid(6c2c0e6eae170d148bb94d92d216b495) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_490.asset using Guid(6c2c0e6eae170d148bb94d92d216b495) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db3269eb9ef97128ec13da8223c57590') in 0.041041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_415.asset
+  artifactKey: Guid(58126a03e93fd4f4fb6cb3e1eb3a84e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_415.asset using Guid(58126a03e93fd4f4fb6cb3e1eb3a84e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c851da80cb0af980998507f245a4a798') in 0.037646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_463.asset
+  artifactKey: Guid(0127b34b6f26c5041b43740381c0781b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_463.asset using Guid(0127b34b6f26c5041b43740381c0781b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55e92c861ee523072dca02bd16b07ff1') in 0.041534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_536.asset
+  artifactKey: Guid(c3dd3d6f85af4a14a98d59e484a71a4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_536.asset using Guid(c3dd3d6f85af4a14a98d59e484a71a4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97fc931e7c77faa05df1774b5be05141') in 0.038195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_551.asset
+  artifactKey: Guid(6b7fd6a24685dae4bb87430ac7ecfaed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_551.asset using Guid(6b7fd6a24685dae4bb87430ac7ecfaed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '669c700eb5f9c9e875ddcf1a567fcd04') in 0.038896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_527.asset
+  artifactKey: Guid(420ef4cc39fd91f4f826036b3db264c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_527.asset using Guid(420ef4cc39fd91f4f826036b3db264c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8bfec96513610181b3ccf50f0b614782') in 0.045634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_510.asset
+  artifactKey: Guid(44aecd72638710e4883a9a1d995b17e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_510.asset using Guid(44aecd72638710e4883a9a1d995b17e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cdd324cac612e6a3b193a188073a614') in 0.043123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_507.asset
+  artifactKey: Guid(e3812b0a53ff0f54aa4a6d0f217a0b1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_507.asset using Guid(e3812b0a53ff0f54aa4a6d0f217a0b1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae179dedf9ce6ee51d148006390edd78') in 0.042362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_544.asset
+  artifactKey: Guid(b0a64a37720bb3c4194f2d3c3496b09f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_544.asset using Guid(b0a64a37720bb3c4194f2d3c3496b09f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f18c06b4b33b2525d60d83bf569be589') in 0.044693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_520.asset
+  artifactKey: Guid(4be6dc28667029844b3b785e73a78c08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_520.asset using Guid(4be6dc28667029844b3b785e73a78c08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2293a2433cddba24f0cd730fbf9644d5') in 0.045415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_501.asset
+  artifactKey: Guid(d2f91ca54ff978041ae042d9745f75ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_501.asset using Guid(d2f91ca54ff978041ae042d9745f75ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9367c543121bff34422202c2470764ca') in 0.046637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_508.asset
+  artifactKey: Guid(f600fac0cacde6b4392514250beca7a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_508.asset using Guid(f600fac0cacde6b4392514250beca7a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '426b3dc1675064973c69094e85c1a6b6') in 0.045247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_548.asset
+  artifactKey: Guid(d5e0cd0489e32cb41a61ee5b4711107b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_548.asset using Guid(d5e0cd0489e32cb41a61ee5b4711107b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c13b37ebf0725c2a545c90e2c420df0') in 0.043871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_583.asset
+  artifactKey: Guid(5bfce52948fa33e4ca02018302d84dd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_583.asset using Guid(5bfce52948fa33e4ca02018302d84dd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07e568f12446f7d525e8318316b8f716') in 0.046534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_61.asset
+  artifactKey: Guid(98f43e8450d251d458e5743420ccf9e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_61.asset using Guid(98f43e8450d251d458e5743420ccf9e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb0929b96e8c8ae83f2aa4cbdb94f8b1') in 0.045034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_585.asset
+  artifactKey: Guid(4d5d5a9dcb90d6746abfffa19759dce3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_585.asset using Guid(4d5d5a9dcb90d6746abfffa19759dce3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74aa7d50213c1e181c44edfa28544171') in 0.041203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_42.asset
+  artifactKey: Guid(fd7a2e1e1c5858a48a62792dbbde83cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_42.asset using Guid(fd7a2e1e1c5858a48a62792dbbde83cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dad9aa4655d3504bb9669d7c402d4f28') in 0.044093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_467.asset
+  artifactKey: Guid(10f1b42fff3b1d64f9bcca62c645f66a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_467.asset using Guid(10f1b42fff3b1d64f9bcca62c645f66a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8eb95051365ed0c2418c9cf5f42eed5f') in 0.044552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_472.asset
+  artifactKey: Guid(bea5183ee664e6649893b0a273adfaa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_472.asset using Guid(bea5183ee664e6649893b0a273adfaa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a7b1bb46e72f04d1a36a86236f6b227') in 0.048238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_579.asset
+  artifactKey: Guid(0c09486b3fb55d542810af00153a7ed4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_579.asset using Guid(0c09486b3fb55d542810af00153a7ed4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79fec8012531b42c381e39e71979ee78') in 0.041042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_452.asset
+  artifactKey: Guid(f8702d151057d7e40ac382d085a64a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_452.asset using Guid(f8702d151057d7e40ac382d085a64a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bb731768331154d6bc188b92067ba17') in 0.052643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_613.asset
+  artifactKey: Guid(1c17521b2a76dd54da6d701581baadd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_613.asset using Guid(1c17521b2a76dd54da6d701581baadd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c8556a142b90ef5261e7e5aa8c8ce34') in 0.053844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_634.asset
+  artifactKey: Guid(b0dbc438e2161b5449ed3be01847d32b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_634.asset using Guid(b0dbc438e2161b5449ed3be01847d32b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c215eeb29c1d1b8f5c5dd2c093168777') in 0.046528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_630.asset
+  artifactKey: Guid(1a6d5d20d3d37de4395262cf3fadf00e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_630.asset using Guid(1a6d5d20d3d37de4395262cf3fadf00e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2bca1452af3224e0640ebee2e8bfdf15') in 0.041719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_618.asset
+  artifactKey: Guid(ffe4e84ceda89c0488b22ea279241d77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_618.asset using Guid(ffe4e84ceda89c0488b22ea279241d77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b2130d159d69e13356481320142bd87') in 0.044414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_63.asset
+  artifactKey: Guid(55cc7821d63716c4686991e679c14e7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_63.asset using Guid(55cc7821d63716c4686991e679c14e7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32864b335608d5684fee13713076818a') in 0.042180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_436.asset
+  artifactKey: Guid(7a4ec8fef82a94a41933774c167ddfd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_436.asset using Guid(7a4ec8fef82a94a41933774c167ddfd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '276eaff58dcb76ce10826607de427099') in 0.045692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_580.asset
+  artifactKey: Guid(74a7675de79b9b7459db2b4ea6d4a0a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_580.asset using Guid(74a7675de79b9b7459db2b4ea6d4a0a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98c6e39a6ff6519f3bdc72917b4234f2') in 0.044200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_528.asset
+  artifactKey: Guid(f998cd5916aa00044a3ba5dff3d6f532) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_528.asset using Guid(f998cd5916aa00044a3ba5dff3d6f532) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2553ca2df77ffa5757b019e435f31407') in 0.044766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_434.asset
+  artifactKey: Guid(e932cd7582d2e1948a82ac7131c8d5cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_434.asset using Guid(e932cd7582d2e1948a82ac7131c8d5cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '607afe5cbd4ca46b0dc4e98eb9ac42d5') in 0.043785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_534.asset
+  artifactKey: Guid(fb93e9e918a2ce840a8f41a25b32a6a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_534.asset using Guid(fb93e9e918a2ce840a8f41a25b32a6a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1163dee736b5909acec0e9926bd742d') in 0.044278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_656.asset
+  artifactKey: Guid(31259cfa6c77cf748870b5346e38699f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_656.asset using Guid(31259cfa6c77cf748870b5346e38699f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8389411c6aa2969ed5e81ee7430a2211') in 0.045063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_67.asset
+  artifactKey: Guid(d96e5692bf93e4b4a9e75ca98274954b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_67.asset using Guid(d96e5692bf93e4b4a9e75ca98274954b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc0ef9d0c2505871de14c7b3d9d4aae9') in 0.044043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_651.asset
+  artifactKey: Guid(b883677d8b2047f448bec796c2ce46f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_651.asset using Guid(b883677d8b2047f448bec796c2ce46f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2fe162c58ca3c64fd3b7bb72d23012e') in 0.047288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_657.asset
+  artifactKey: Guid(777148ca37a870c4d89a798a322a3875) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_657.asset using Guid(777148ca37a870c4d89a798a322a3875) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d69af31000d81aeca94140ff8667cd7') in 0.043736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_457.asset
+  artifactKey: Guid(272384f0d5031e54e9749f16311566d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_457.asset using Guid(272384f0d5031e54e9749f16311566d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b7568d2700c5d4a5717e7d02787553e') in 0.045871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_658.asset
+  artifactKey: Guid(c0be2f80e64ad3b458aa1a9ac852b1c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_658.asset using Guid(c0be2f80e64ad3b458aa1a9ac852b1c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5429fc0f98acceeb9e5824f02ddb3180') in 0.041081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_515.asset
+  artifactKey: Guid(a89543f4e59628f47b40209705d521cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_515.asset using Guid(a89543f4e59628f47b40209705d521cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25b472bcfe7978f9c7c1fc9d5a78c0f0') in 0.046534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_484.asset
+  artifactKey: Guid(15912423de0e029419a5432d8df59b61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_484.asset using Guid(15912423de0e029419a5432d8df59b61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d248a21bd87e0aaf49c97d368ee8679') in 0.044590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_608.asset
+  artifactKey: Guid(2642b7a83e96f024a949d5d38f0ed90d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_608.asset using Guid(2642b7a83e96f024a949d5d38f0ed90d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03108c725d463dac31d1c8d9f9018178') in 0.043156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_617.asset
+  artifactKey: Guid(51ca6d909bc4f7d40b2976bf6254074c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_617.asset using Guid(51ca6d909bc4f7d40b2976bf6254074c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa6573170343e34fb806373ac591f8bd') in 0.044325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_697.asset
+  artifactKey: Guid(4fae7c66cff2cd8489441e74b915552e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_697.asset using Guid(4fae7c66cff2cd8489441e74b915552e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b2a4a246bc1e575d9ae117664c1ed91') in 0.047388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_707.asset
+  artifactKey: Guid(ec5e83d83e3b438469cb8cd0880ed565) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_707.asset using Guid(ec5e83d83e3b438469cb8cd0880ed565) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc777094ad368eb019ae1e1c18fa71d6') in 0.041923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_71.asset
+  artifactKey: Guid(565cc75e7a85d1c4888efa731ea7f1de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_71.asset using Guid(565cc75e7a85d1c4888efa731ea7f1de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '437ba32087e81fa3a875efc06721afd9') in 0.042844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_715.asset
+  artifactKey: Guid(db54d641bf1181644995ffd7b0f33ed0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_715.asset using Guid(db54d641bf1181644995ffd7b0f33ed0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5af3ee0fd11a3d9c0094f174650cda2a') in 0.047042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_670.asset
+  artifactKey: Guid(1639603efc6dc674181f0f73e2476445) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_670.asset using Guid(1639603efc6dc674181f0f73e2476445) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82d325017bd9829ca0ab5dd1f5cb9e38') in 0.043555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_589.asset
+  artifactKey: Guid(dbe5c21c86325d54d98916c2d3ab6f50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_589.asset using Guid(dbe5c21c86325d54d98916c2d3ab6f50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12f6cc4335555ce806c1769b4a967254') in 0.039699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_629.asset
+  artifactKey: Guid(c91fafb5e1c02b3418b1ec97211e1338) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_629.asset using Guid(c91fafb5e1c02b3418b1ec97211e1338) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd88d31d778796555aaf657573a77d8d9') in 0.045060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_714.asset
+  artifactKey: Guid(8d836002f024f6b4ab8a7df135a6d993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_714.asset using Guid(8d836002f024f6b4ab8a7df135a6d993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74c5fa01eb1ebe4d96c7e72e4a74248f') in 0.038852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_684.asset
+  artifactKey: Guid(77fb7c9505a7f3b489060a752e7b59f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_684.asset using Guid(77fb7c9505a7f3b489060a752e7b59f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49c6720687dde330cd9aff607f6ecfc9') in 0.047346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_655.asset
+  artifactKey: Guid(583e850c84c7595469b30f3b82b9a4f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_655.asset using Guid(583e850c84c7595469b30f3b82b9a4f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70440ec5378592a60c2d0de028d2cb25') in 0.042846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_741.asset
+  artifactKey: Guid(954f7490e9ed1f0469771f5e37525f43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_741.asset using Guid(954f7490e9ed1f0469771f5e37525f43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d4e3995d699a94382402d2fb2b2f814') in 0.041035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_750.asset
+  artifactKey: Guid(989c31f9f1073724fa312bd522ef6449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_750.asset using Guid(989c31f9f1073724fa312bd522ef6449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'efae10746d9121cba3663b7be4736427') in 0.047922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_72.asset
+  artifactKey: Guid(35ac7610db095464eb20dc89ace56a34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_72.asset using Guid(35ac7610db095464eb20dc89ace56a34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56b7a23978e3447edce5e455558a282f') in 0.038233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_742.asset
+  artifactKey: Guid(3209ba41676d51b408df5bca894aab00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_742.asset using Guid(3209ba41676d51b408df5bca894aab00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ba6c9cb60da9483e0311a6e1e524f74') in 0.038776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_732.asset
+  artifactKey: Guid(86455b6ec7c9b5b4f990dc973f8f27c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_732.asset using Guid(86455b6ec7c9b5b4f990dc973f8f27c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5910cbf4d9672ac6fd5c99df3130ee6') in 0.040618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_737.asset
+  artifactKey: Guid(61b83bdd2c97bd84781d4a5090c59048) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_737.asset using Guid(61b83bdd2c97bd84781d4a5090c59048) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36b292ab7bd0707aa664abc06219ce78') in 0.036238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_745.asset
+  artifactKey: Guid(f655680f068daec49a35d317eb5051cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_745.asset using Guid(f655680f068daec49a35d317eb5051cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7082cb6711332f53599fada5ae3fc2e7') in 0.036014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_635.asset
+  artifactKey: Guid(1d01d676e3e4a9645811d74c6105fc7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_635.asset using Guid(1d01d676e3e4a9645811d74c6105fc7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f19f0ce4dcaa1a4c41521d22cf843132') in 0.034907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_619.asset
+  artifactKey: Guid(efd6e9da5c7256e4aba755a9f4d411d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_619.asset using Guid(efd6e9da5c7256e4aba755a9f4d411d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c74b5c32fef9b2531d3633ba486638b') in 0.039229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_547.asset
+  artifactKey: Guid(bb3cb81a0be94394fae7713bcca69337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_547.asset using Guid(bb3cb81a0be94394fae7713bcca69337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ddee1e5fe14c45a3b5ecf69694585f72') in 0.041136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_647.asset
+  artifactKey: Guid(027f194f91a98d34c98479597fc53c29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_647.asset using Guid(027f194f91a98d34c98479597fc53c29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0caf6501d6e09a05d7e303d05a290b0f') in 0.041106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_513.asset
+  artifactKey: Guid(5bc859121add18b4a88012adc34ce83e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_513.asset using Guid(5bc859121add18b4a88012adc34ce83e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e93dbc2165271485c78fb2d5e1a856c3') in 0.038612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_552.asset
+  artifactKey: Guid(6a7e4453bae86d347beb184bd28ed9b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_552.asset using Guid(6a7e4453bae86d347beb184bd28ed9b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a96a09edb554963e11ac3a62ff608e6a') in 0.037997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_604.asset
+  artifactKey: Guid(718a6f114bc2e27498e298be3c630a59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_604.asset using Guid(718a6f114bc2e27498e298be3c630a59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4fd6189386ce15ba7d24089db4c1794') in 0.036262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_727.asset
+  artifactKey: Guid(5be855c5e1155c846b416fffbcab2a18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_727.asset using Guid(5be855c5e1155c846b416fffbcab2a18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f466152362d5e93b21b699e320b2af0') in 0.039089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_58.asset
+  artifactKey: Guid(d8bb0c4591b676e4ab3cee16c5972caf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_58.asset using Guid(d8bb0c4591b676e4ab3cee16c5972caf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '110a38e08a803e034e2f06c0b95ab785') in 0.041346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_588.asset
+  artifactKey: Guid(0f1e264163894b2498c12595d9b749ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_588.asset using Guid(0f1e264163894b2498c12595d9b749ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd634eaeac50fcf67bffa4211ccab254a') in 0.042944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_451.asset
+  artifactKey: Guid(6009fce11b1d56945a4ad99c9b63c2fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_451.asset using Guid(6009fce11b1d56945a4ad99c9b63c2fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1d535540f9d744c3ca93c035d60baca') in 0.040276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_743.asset
+  artifactKey: Guid(e854dedc0eebe77429c1d5edbe5833e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_743.asset using Guid(e854dedc0eebe77429c1d5edbe5833e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9935b1425051afb7aa6085adaa48ca53') in 0.037306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_730.asset
+  artifactKey: Guid(c33da7a891bfc2c4081a4198224b22c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_730.asset using Guid(c33da7a891bfc2c4081a4198224b22c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fcd00edc38036f6aeb7925c239ca9c55') in 0.038393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_722.asset
+  artifactKey: Guid(ffde52151e51102419feb9c7ffb8ac99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_722.asset using Guid(ffde52151e51102419feb9c7ffb8ac99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e6b194545783275f74cdd96d1978c76') in 0.043271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_442.asset
+  artifactKey: Guid(a110e61f3ef31aa468f96398767020c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_442.asset using Guid(a110e61f3ef31aa468f96398767020c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b14a7e2b587654ffc8dfe57d3250c42b') in 0.050052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_578.asset
+  artifactKey: Guid(2191d4970c457f944b1a329dd3cb4847) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_578.asset using Guid(2191d4970c457f944b1a329dd3cb4847) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4414a9e92b9be053c0c213ebd600ad10') in 0.050082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_494.asset
+  artifactKey: Guid(67b131dfae442e74da8891848d8302c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_494.asset using Guid(67b131dfae442e74da8891848d8302c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb144019e3b72b2220853fd749f2b1cb') in 0.040033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_632.asset
+  artifactKey: Guid(bd7ceaf0b78e36b4c9a92c4ac7eb78cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_632.asset using Guid(bd7ceaf0b78e36b4c9a92c4ac7eb78cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3dc5c3c566424855e8f73560ee160f5b') in 0.043408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_567.asset
+  artifactKey: Guid(df6d64d7032fc0c46bd86c8c260069ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_567.asset using Guid(df6d64d7032fc0c46bd86c8c260069ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce6407046549390fb0fc6c36ff9eddca') in 0.042985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_440.asset
+  artifactKey: Guid(c41dee9e1ad61eb4e8ea0960621910a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_440.asset using Guid(c41dee9e1ad61eb4e8ea0960621910a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abec6b76e2f8bf10892157605f4dcec8') in 0.048752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_680.asset
+  artifactKey: Guid(cfd76f7a45f7ae146b4fe4e6b0413429) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_680.asset using Guid(cfd76f7a45f7ae146b4fe4e6b0413429) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a825f6aac0e16846f9a2edb4ab7ae81') in 0.046402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_70.asset
+  artifactKey: Guid(cc76e7a547cd1a44ca5b7661d75bad62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_70.asset using Guid(cc76e7a547cd1a44ca5b7661d75bad62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e5797fc0d9783ca437f9922d2f09ff6') in 0.043953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_749.asset
+  artifactKey: Guid(58664ef5beb06d4429ce2274fe0e1843) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_749.asset using Guid(58664ef5beb06d4429ce2274fe0e1843) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '308a7aa44655e8e5fa5f7c3967c20566') in 0.041215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_637.asset
+  artifactKey: Guid(ab1180cc1abc4cc438caaf0b746e50a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_637.asset using Guid(ab1180cc1abc4cc438caaf0b746e50a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b349e1a4aaa7302dd3f9d650248efe5') in 0.048534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_678.asset
+  artifactKey: Guid(901f7ebddb58d09439f1d26f6c08a17c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_678.asset using Guid(901f7ebddb58d09439f1d26f6c08a17c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00495426ac6a2438202ada392e00385d') in 0.041830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_612.asset
+  artifactKey: Guid(d681c65a64ca9ef4cae3bd788719f15e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_612.asset using Guid(d681c65a64ca9ef4cae3bd788719f15e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75e326f139c507b6b4f93133383909e6') in 0.048015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_517.asset
+  artifactKey: Guid(fbda89849ac5e1340a0e4a3344be2d11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_517.asset using Guid(fbda89849ac5e1340a0e4a3344be2d11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9774ceae57f6a4042daa6f3826136635') in 0.044815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_726.asset
+  artifactKey: Guid(2758d060599450f469c49d389938bb76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_726.asset using Guid(2758d060599450f469c49d389938bb76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23f71c96d70df12d80368a46cf39a1b3') in 0.048140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_56.asset
+  artifactKey: Guid(b53338d45ff1eb346b6b1db00d8c90a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_56.asset using Guid(b53338d45ff1eb346b6b1db00d8c90a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2bea5460066e8e81be04b947e1eb566') in 0.049052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.138058 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_756.asset
+  artifactKey: Guid(104ef8b5cf7d552439cf4d055ca72b67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_756.asset using Guid(104ef8b5cf7d552439cf4d055ca72b67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f982bc11df0257bb6ca3a246327a8f95') in 0.050836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_99.asset
+  artifactKey: Guid(96f6b4a4a7cc2724599743ca1dcdfd90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_99.asset using Guid(96f6b4a4a7cc2724599743ca1dcdfd90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3d4e4fe41d512506c12140d7bfd05bc') in 0.057642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_35.asset
+  artifactKey: Guid(7507ba2e2c4cb394ca9fbdc9ff326c5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_35.asset using Guid(7507ba2e2c4cb394ca9fbdc9ff326c5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab99646668f35140d0f6d68915c9e2a0') in 0.041737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_28.asset
+  artifactKey: Guid(d4aa5f5a4fe035c47b8332c6db331dc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_28.asset using Guid(d4aa5f5a4fe035c47b8332c6db331dc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '215b0d5b4fbc0ed45404be9464c68fe8') in 0.038908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_83.asset
+  artifactKey: Guid(9be06b7e8e697e54880be77fead77b26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_83.asset using Guid(9be06b7e8e697e54880be77fead77b26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f0107f25a17395fea2112afced541e0') in 0.045924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_64.asset
+  artifactKey: Guid(f149e08d1bbeb3a468ff59e29edc0620) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_64.asset using Guid(f149e08d1bbeb3a468ff59e29edc0620) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b916e992d7f294c5c7ffc332c0adb185') in 0.039835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/BoneWall_1.asset
+  artifactKey: Guid(b826caffa5621d042b343e07b00a8d3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/BoneWall_1.asset using Guid(b826caffa5621d042b343e07b00a8d3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a7af2e8bf6549e6b4c8f50a0c798488') in 0.042386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_63.asset
+  artifactKey: Guid(9bbc4cf0a6d1e9f42808364e482d0610) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_63.asset using Guid(9bbc4cf0a6d1e9f42808364e482d0610) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02efed0c0cff2417771f165e8a273732') in 0.044642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_15.asset
+  artifactKey: Guid(35d302602f37ac44282839c00132be8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_15.asset using Guid(35d302602f37ac44282839c00132be8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76f212f26b7bc1102d0c7ced84087a61') in 0.048271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/celianna_TileA2_170.asset
+  artifactKey: Guid(232a6b69648dfda469e7329eb483a761) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/celianna_TileA2_170.asset using Guid(232a6b69648dfda469e7329eb483a761) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2202e705dd8c202e2932d0e8afde9bc5') in 0.048727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_60.asset
+  artifactKey: Guid(c2da244c6781e104382aa396b9de399c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_60.asset using Guid(c2da244c6781e104382aa396b9de399c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd1ebea5d1e64ea92be8dcb659a6a57e') in 0.041931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_2.asset
+  artifactKey: Guid(64d3529d59210f1489f669a56aa1b995) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_2.asset using Guid(64d3529d59210f1489f669a56aa1b995) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e72e03cd277ea1757a6bb371e0dec490') in 0.043842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/celianna_TileA2_154.asset
+  artifactKey: Guid(5542d0c86de2b4d44894ef02da7cab9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/celianna_TileA2_154.asset using Guid(5542d0c86de2b4d44894ef02da7cab9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff883026ddf7a10f4c982cd8a5290e76') in 0.043134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_48.asset
+  artifactKey: Guid(76a129859bdcf224daad6e459a0a89b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_48.asset using Guid(76a129859bdcf224daad6e459a0a89b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd55897ed9a0368307e23d8d17afa504f') in 0.043223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/celianna_TileA2_43.asset
+  artifactKey: Guid(d54fb4ece0351c94dacb74df8dd94d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/celianna_TileA2_43.asset using Guid(d54fb4ece0351c94dacb74df8dd94d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ad736b3142a810409ee20941e482f06') in 0.043040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_14.asset
+  artifactKey: Guid(74e45e1f6cec3f242ae123bc6d7142d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_14.asset using Guid(74e45e1f6cec3f242ae123bc6d7142d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06b200887c8fde0a5a30a12b4ad39c97') in 0.040285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_68.asset
+  artifactKey: Guid(70e97f92fce55594790bf99b72154cda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_68.asset using Guid(70e97f92fce55594790bf99b72154cda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '321bbda0543c9918cbf05eb8bd9b604b') in 0.038204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_91.asset
+  artifactKey: Guid(8bcd3561894507a4c8835b04485231bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_91.asset using Guid(8bcd3561894507a4c8835b04485231bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6386b9cb32097e71c3b24c4e80a5f6d9') in 0.038640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/blood.asset
+  artifactKey: Guid(c76c4b244b4c2554ba68cf9c425e67d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/blood.asset using Guid(c76c4b244b4c2554ba68cf9c425e67d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56e7dff50cdaf39dce41e1b9fac3b037') in 0.038036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_25.asset
+  artifactKey: Guid(c53d8ca373dffa84ba330dc296fa9a84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_25.asset using Guid(c53d8ca373dffa84ba330dc296fa9a84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99c65870150f0cb974a7dafcfde19c29') in 0.042584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_42.asset
+  artifactKey: Guid(92e6387b089843642aad575e902e501b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_42.asset using Guid(92e6387b089843642aad575e902e501b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a5642342689cd4e21d54b6876df2040') in 0.042943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_33.asset
+  artifactKey: Guid(6064128ee7ad04f4691fd8e8fd3b248a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_33.asset using Guid(6064128ee7ad04f4691fd8e8fd3b248a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44d281b8a8d4fdb5fcd9a80aac3162e8') in 0.040855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_49.asset
+  artifactKey: Guid(29425e122ef95014e95ff58575e0990d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_49.asset using Guid(29425e122ef95014e95ff58575e0990d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1896552f13147ff89940ac1deb0ca1cf') in 0.045025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_31.asset
+  artifactKey: Guid(98377679ad1a1d74a838741fc0626466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Objects/Flag_31.asset using Guid(98377679ad1a1d74a838741fc0626466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fb1e82d2cd5394c2bb0e994339449e7') in 0.040160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_85.asset
+  artifactKey: Guid(8b6f89025983615438d1d2570d5d23b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InternalAssets/Sprites/Tilemap/Ground/celianna_TileA2_85.asset using Guid(8b6f89025983615438d1d2570d5d23b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '063b0831d5ba5f97fdc4943770a8b461') in 0.042175 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 24.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (21.9 KB). Loaded Objects now: 4562.
+Memory consumption went from 76.1 MB to 76.1 MB.
+Total: 22.807700 ms (FindLiveObjects: 0.590800 ms CreateObjectMapping: 0.316800 ms MarkObjects: 21.822000 ms  DeleteObjects: 0.076600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

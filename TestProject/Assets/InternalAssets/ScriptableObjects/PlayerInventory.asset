@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae9d3a4e44d1e634ca2beada37b6f7c2, type: 3}
+  m_Name: PlayerInventory
+  m_EditorClassIdentifier: 
+  maxSlots: 10
+  namesOfItems:
+    _serializedList:
+    - Key: Ammo
+      Value: {fileID: 11400000, guid: 653b3e2b110b4324aaa4f2f5e65c8961, type: 2}
+    - Key: Helmet
+      Value: {fileID: 11400000, guid: 4132ab8393bf9fe4190494d37c72a17d, type: 2}
